@@ -61,7 +61,7 @@ public class PrintSeams {
     }
 
     public static void main(String[] args) {
-    	String fileName = "C:\\Users\\minhsiang0617\\Desktop\\Algorithm\\seam carving\\seam\\3x4.png";
+    	String fileName = "D:\\algorithms\\seam\\10x10.png";
         Picture picture = new Picture(fileName);
         
     	StdOut.printf("%s (%d-by-%d image)\n", fileName, picture.width(), picture.height());

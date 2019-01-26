@@ -14,7 +14,6 @@ import edu.princeton.cs.algs4.StdRandom;
 
 public class SCUtility {
 
-
     // create random width-by-height array of tiles
     public static Picture randomPicture(int width, int height) {
         Picture picture = new Picture(width, height);

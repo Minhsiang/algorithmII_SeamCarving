@@ -18,7 +18,7 @@ public class PrintEnergy {
 
     public static void main(String[] args) {
     	
-    	String fileName = "C:\\Users\\minhsiang0617\\Desktop\\Algorithm\\seam carving\\seam\\3x4.png";
+    	String fileName = "D:\\algorithms\\seam\\12x10.png";
         Picture picture = new Picture(fileName);
         
         StdOut.printf("image is %d pixels wide by %d pixels high.\n", picture.width(), picture.height());
@@ -29,7 +29,7 @@ public class PrintEnergy {
 
         for (int row = 0; row < sc.height(); row++) {
             for (int col = 0; col < sc.width(); col++)
-                StdOut.printf("%9.0f ", sc.energy(col, row));
+                StdOut.printf("%9.2f ", sc.energy(col, row));
             StdOut.println();
         }
     }
